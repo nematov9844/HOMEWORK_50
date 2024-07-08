@@ -86,6 +86,6 @@ let obj = {
 let value = Object.values(obj);
 
 let value2 = Object.values(obj).reduce((a, b) => a + b, 0);
-let value3 = Array.from(value2.toString(), Number).reduce((a, b) => a + b, 0):
+let value3 = Array.from(value2.toString(), Number).reduce((a, b) => a + b, 0)
 console.log(value2);
 console.log(value3);
