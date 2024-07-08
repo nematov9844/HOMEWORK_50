@@ -82,12 +82,10 @@ const palindromeStringgh = (...str) => {
 let obj = {
   a: 1,
   b: 22,
-  c: 3,
-  d: 4,
-  e: 5,
 };
 let value = Object.values(obj);
 
 let value2 = Object.values(obj).reduce((a, b) => a + b, 0);
-
-// console.log(value2);
+let value3 = Array.from(value2.toString(), Number).reduce((a, b) => a + b, 0):
+console.log(value2);
+console.log(value3);
